@@ -216,6 +216,9 @@ h4 {
     background: #f4f4fd;
     width: 1440px;
     height: 732px;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -236,7 +239,6 @@ h4 {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .third-list-title {
