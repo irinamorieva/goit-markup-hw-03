@@ -92,6 +92,7 @@ h4 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -107,7 +108,7 @@ h4 {
 .header-adress-list {
     display: flex;
     gap: 40px;
-    margin-right: 156px;
+    /* margin-right: 156px; */
     padding: 24px 0;
 }
 
