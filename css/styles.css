@@ -127,8 +127,8 @@ h4 {
 
 .first-section {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    /* width: 1440px;
+    height: 600px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +145,7 @@ h4 {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
 }
 
 .first-section-button {
