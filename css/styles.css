@@ -179,9 +179,17 @@ h4 {
     padding: 120px 0;
 }
 
+.second-section-title {
+    visibility: hidden;
+}
+
 .second-section-list {
     display: flex;
     gap: 24px;
+}
+
+.second-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .second-list-item-title {
@@ -190,6 +198,8 @@ h4 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+
 }
 
 .second-list-text {
