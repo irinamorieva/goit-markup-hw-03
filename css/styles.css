@@ -175,10 +175,13 @@ h4 {
     display: flex;
 }
 
+.second-section {
+    padding: 120px 0;
+}
+
 .second-section-list {
     display: flex;
     gap: 24px;
-    margin: 120px 156px;
 }
 
 .second-list-item-title {
