@@ -343,6 +343,7 @@ h4 {
     display: flex;
     height: 312px;
     flex-direction: column;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -356,6 +357,8 @@ h4 {
     color: #4d5ae5;
     margin-top: 100px;
     margin-left: 156px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -371,5 +374,5 @@ h4 {
     color: #f4f4fd;
     margin-left: 156px;
     margin-top: 16px;
-    width: 264px;
+    max-width: 264px;
 }
