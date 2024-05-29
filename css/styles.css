@@ -275,19 +275,31 @@ h4 {
     color: #434455;
 }
 
+.fourth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .fourth-section-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+
     margin-left: 156px;
     row-gap: 48px;
+    column-gap: 24px;
+}
 
+.fourth-list-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .fourth-list-item {
-    border: 1px solid #e7e9fc;
-    width: 360px;
+
+
     height: 420px;
+    width: calc((100% - 48px) / 3);
 }
 
 .fourth-section-title {
@@ -298,7 +310,7 @@ h4 {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
+
     padding-bottom: 72px;
 }
 
@@ -308,8 +320,8 @@ h4 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-left: 16px;
+
+    margin-bottom: 8px
 }
 
 .fourth-list-text {
