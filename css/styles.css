@@ -364,6 +364,7 @@ h4 {
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
