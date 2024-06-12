@@ -142,7 +142,7 @@ h4 {
 }
 
 .first-section {
-    background: #2e2f42;
+    /* background: #2e2f42; */
     /* width: 1440px;
     height: 600px; */
     display: flex;
@@ -224,6 +224,9 @@ h4 {
 
 .second-list-item {
     width: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: column;
+
 }
 
 .second-list-item-title {
